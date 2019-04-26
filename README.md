@@ -34,22 +34,40 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is basically giving meaning to your HTML, so you can easily spot where something is on the page while going through the source, a good semantic HTML will also be well formatted so that you can easily see if a body of content is nested inside another perhaps bigger body of content.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Whenever using display: block; the content will begin on a new line, like a paragraph or headline.
+Whenever using display: inline; the content will continue on the same line, like an anchor or image.
 
 3. What are the 4 areas of the box model?
 
+Content, Padding, Border and Margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Aligh-items center work on the vertical axis and justify-content work on the horizontal axis.
+
 5. Explain why git is valuable to a team of developers.
+
+It allows a team of developers to keep track of changes, so that if a bug occurs they can pinpoint with previous commit where the bug was introduced.
+
+The other great utility and perhaps the one taken for granted is the ability to back it up, if your computer dies and you pushed your last commit to the server then the code will live on to see another day. 
+
+Another great utility amongst others is branching which allows you to work on the same project without even affecting it, which is an awesome feature for Git.
+
+"Git is like stealing fire from the gods. Fire hurts but it is useful, and so is Git" - Gabe
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add your project manager as collaborator on Github.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
  
