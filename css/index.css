@@ -50,6 +50,41 @@ table {
 * {
     box-sizing: border-box;
 }
+@media only screen and (max-width: 1200px) {
+    body{
+        background-color: rgb(196, 196, 196);
+        transition: all 2s;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    body{
+        background-color: rgb(167, 167, 167);
+        transition: all 2s;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    body{
+        background-color: rgb(104, 104, 104);
+        transition: all 2s;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: rgb(54, 54, 54);
+        transition: all 2s;
+    }
+}
+
+@media only screen and (max-width: 200px) {
+    body{
+        background-color: rgb(54, 54, 54);
+        transition: all 2s;
+    }
+}
+
 
 html, body {
     height: 100%;
@@ -256,8 +291,6 @@ footer nav a {
     transition: all 0.3s;
 }
 /* blog.html */
-
-
 
 .blog-page h1{
     font-size: 36px;
