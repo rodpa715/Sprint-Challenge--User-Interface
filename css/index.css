@@ -71,6 +71,24 @@ p {
     margin: 0 auto;
 }
 
+.container header{
+    margin-bottom: 15px;
+}
+
+.container header nav{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.container header a{
+    color: black;
+    text-decoration: none;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -94,7 +112,7 @@ p {
     padding: 0 2%;
     margin-bottom: 0;
 }
-
+ 
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +130,36 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box0{
+    background-color: teal;
+}
+.middle-content .boxes .box1{
+    background-color: gold;
+}
+.middle-content .boxes .box2{
+    background-color: cadetblue;
+}
+.middle-content .boxes .box3{
+    background-color: coral;
+}
+.middle-content .boxes .box4{
+    background-color: crimson;
+}
+.middle-content .boxes .box5{
+    background-color: forestgreen;
+}
+.middle-content .boxes .box6{
+    background-color: darkorchid;
+}
+.middle-content .boxes .box7{
+    background-color: hotpink;
+}
+.middle-content .boxes .box8{
+    background-color: indigo;
+}
+.middle-content .boxes .box9{
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
