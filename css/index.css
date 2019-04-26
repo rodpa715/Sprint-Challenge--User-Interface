@@ -82,6 +82,8 @@ p {
     align-items: baseline;
     flex-wrap: wrap;
     padding: 20px 0;
+    margin-bottom: 20px;
+    margin-right: 50px;
 }
 
 .container header a{
@@ -89,6 +91,9 @@ p {
     text-decoration: none;
 }
 
+.container header img{
+    align-self: baseline;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
