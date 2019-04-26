@@ -197,3 +197,61 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* about.html */
+.about-page header{
+    margin-bottom: 0; 
+}
+.about-page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about-page div{
+    border-bottom: 1px dashed black;
+    padding: 18px;
+}
+
+.about-page .bottom{
+    border-bottom: none;
+    padding: 18px;
+    margin: 15px 0;
+}
+
+.about-page section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-around;
+}
+
+.about-page section div{
+    padding: 0;
+    padding-top: 10px;
+    margin: 18px;
+    margin-top: 30px;
+    width: 45%;
+}
+.about-page section div img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.about-page section p{
+    margin-bottom: 20px;
+}
+.about-page button{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 125px;
+    height: 40px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.about-page button:hover{
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+    transition: all 0.3s;
+}
